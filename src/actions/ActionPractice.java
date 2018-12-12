@@ -33,7 +33,7 @@ public class ActionPractice {
 			act.contextClick(fork).build().perform();
 			//Draggable
 			driver.findElement(By.xpath("//a[text()='Draggable']")).click();	
-			
+			driver.findElement(By.id("IDS"));
 			//Drag and Drop
 		    WebElement drag= driver.findElement(By.xpath("//div[@id='draggable']"));
 		    act.dragAndDropBy(drag, 300,100).build().perform();
