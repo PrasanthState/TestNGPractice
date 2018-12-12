@@ -29,4 +29,8 @@ public class characteroccurances {
 		System.out.println(map.values());
 		System.out.println(map.keySet());
 	}
+	
+	public void test2(){
+		System.out.println("Test2");
+	}
 }
